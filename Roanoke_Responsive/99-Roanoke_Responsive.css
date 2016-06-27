@@ -268,6 +268,95 @@
   height: 1px;
 }
 
+/* ==========================================================================
+   MASTERPAGE ELEMENTS
+   ========================================================================== */
+/* This applies to the loading bar at the top of the page */
+.ProgressDiv {
+  background-color: #ffdd6f;
+}
+
+#masterHeaderBackground,
+.header {
+  border-bottom: 2px solid #eeeeee;
+}
+
+/* Universal search control */
+.search-field {
+  background: #fff url("images/ResponsiveHeaderSprite.png") no-repeat;
+  background-position: 7px -16px;
+  padding-left: 28px !important;
+  color: #777;
+  border-color: #CCC;
+}
+
+.header-search .TextButton {
+  display: none;
+}
+
+/* header logo */
+#masterHeaderImage {
+  background-image: url("images/HeaderLogo.png");
+  background-repeat: no-repeat;
+  width: 122px;
+  height: 38px;
+  /* The following are needed to hide the text, but allow it to be read by screen readers */
+  text-indent: -9999px;
+  overflow: hidden;
+  float: left;
+}
+
+#masterDonorHeaderImage {
+  background-image: url("images/HeaderLogo.png");
+  background-repeat: no-repeat;
+  width: 122px;
+  height: 38px;
+  /* The following are needed to hide the text, but allow it to be read by screen readers */
+  text-indent: -9999px;
+  overflow: hidden;
+  float: left;
+}
+
+/* Used in the donor site header logo content area */
+#masterHeaderActionArea a {
+  display: block;
+  text-align: center;
+}
+
+/* On Behalf Of with target set */
+.ProxyPanelContact {
+  background-color: #69be28;
+}
+.ProxyPanelContact, .ProxyPanelContact .obo-label {
+  color: #fff;
+}
+.ProxyPanelContact a {
+  color: #81f7ff;
+}
+
+/* Sub (Left) Navigation
+   ========================================================================== */
+#pagesubnav {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.SubNavPanelHead {
+  background-color: #efefef;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.SubNavigationSeparator {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #ddd;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-size: 16px;
   line-height: 1.6;

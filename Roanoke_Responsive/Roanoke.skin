@@ -2,9 +2,11 @@
 <%@ Register TagPrefix="asi" TagName="SubNavigation" Src="~/AsiCommon/Controls/Navigation/SubNavigation.ascx" %>
 <%@ Register Assembly="Asi.Web" Namespace="Asi.Web.UI.Common.BSA" TagPrefix="asibsa" %>
 
-<asi:PageNavR runat="server" Skin="Custom" EnableEmbeddedSkins="false" MenuDisplayStyle="Responsive" EnableMegaDropDownMenu="True"
-    MegaDropDownMenuShowStartingNode="False" MaxDataBindDepth="3" MegaDropDownMenuRepeatColumns="2" />
-<telerik:RadSiteMap runat="server" SkinID="MegaDropDown" EnableEmbeddedBaseStylesheet="False" EnableEmbeddedSkins="False" Skin="Custom" />
+<asi:PageNavR runat="server" Skin="Custom" EnableEmbeddedSkins="false" EnableMegaDropDownMenu="True" MenuRenderMode="Classic"
+    MegaDropDownMenuShowStartingNode="False" MaxDataBindDepth="3" MegaDropDownMenuRepeatColumns="2" EnableRootItemScroll="False"
+    EnableAutoScroll="False" ShowToggleHandle="True" />
+
+<telerik:RadSiteMap runat="server" SkinID="MegaDropDown" EnableEmbeddedSkins="False" Skin="Custom" />
 
 <asi:SubNavigation runat="server" EnableEmbeddedSkins="False" Skin="Custom" SingleExpandPath="true" ShowLineImages="false" TreeRenderMode="Lightweight" />
 
